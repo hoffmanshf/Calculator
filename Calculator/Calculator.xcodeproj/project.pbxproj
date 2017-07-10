@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D303BEA01F10974E009D5AD3 /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D303BE9F1F10974E009D5AD3 /* CalculatorModel.swift */; };
 		D3189D011F0C90DD00C84144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3189D001F0C90DD00C84144 /* AppDelegate.swift */; };
 		D3189D031F0C90DD00C84144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3189D021F0C90DD00C84144 /* ViewController.swift */; };
 		D3189D061F0C90DE00C84144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3189D041F0C90DE00C84144 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D303BE9F1F10974E009D5AD3 /* CalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 		D3189CFD1F0C90DD00C84144 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3189D001F0C90DD00C84144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3189D021F0C90DD00C84144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				D3189D021F0C90DD00C84144 /* ViewController.swift */,
+				D303BE9F1F10974E009D5AD3 /* CalculatorModel.swift */,
 				D3189D041F0C90DE00C84144 /* Main.storyboard */,
 				D3189D121F0C918C00C84144 /* Supporting Files */,
 			);
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D303BEA01F10974E009D5AD3 /* CalculatorModel.swift in Sources */,
 				D3189D031F0C90DD00C84144 /* ViewController.swift in Sources */,
 				D3189D011F0C90DD00C84144 /* AppDelegate.swift in Sources */,
 			);

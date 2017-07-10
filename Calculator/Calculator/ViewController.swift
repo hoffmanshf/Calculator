@@ -36,6 +36,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func performOperation(_ sender: UIButton) {
+        userTyping = false
         let mathematicalSymbol: String = sender.currentTitle!
         switch mathematicalSymbol {
         case "π":
