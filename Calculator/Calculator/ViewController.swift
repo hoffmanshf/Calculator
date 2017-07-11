@@ -35,16 +35,19 @@ class ViewController: UIViewController {
         }
     }
     
+    private var model = CalculatorModel()
+    
     @IBAction func performOperation(_ sender: UIButton) {
-        userTyping = false
-        let mathematicalSymbol: String = sender.currentTitle!
-        switch mathematicalSymbol {
-        case "π":
-            displayValue = Double.pi
-        case "√":
-            displayValue = sqrt(displayValue)
-        default:
-            break
+        if userTyping {
+            model.setOperand(displayValue)
+            userTyping = false
+        }
+        
+        if let mathematicalSymbol: String = sender.currentTitle {
+            model.performOperation(mathematicalSymbol)
+        }
+        if let result = model.result {
+            displayValue = result
         }
     }
 }
